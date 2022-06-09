@@ -1,0 +1,72 @@
+/* colour */
+a:link {
+  text-decoration: none;
+}
+
+.bg {
+  background-color: #0A192E;
+  font-family: "Rockwell";
+}
+
+.navnumber {
+  color: #56DBBF !important;
+}
+
+.navtext {
+  color: #B3BDDB;
+}
+
+.resume {
+  border-radius: 25px;
+  border-color: #56DBBF;
+  background-color: #454444;
+}
+
+.resumetext {
+  color: #56DBBF !important;
+}
+
+.firsttext {
+  color: #B3BDDB;
+  font-family: "Rockwell";
+  font-weight: 400;
+  font-size: 21.33px;
+  padding-top: 5%;
+}
+
+.nametext {
+  font-family: "Rockwell";
+  font-weight: 400;
+  font-size: 50.52px;
+}
+
+.hello {
+  text-align: justify;
+  font-family: "Rockwell";
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.titleBorder {
+  border-bottom: 1px solid #56DBBF;
+}
+
+.footer {
+  margin-top: 50px;
+}
+
+.get {
+  color: #B3BDDB;
+  margin-top: 70px;
+  margin-bottom: 20px;
+}
+
+#footertext {
+  margin-left: 140px;
+  color: #B3BDDB;
+}
+
+#icon a {
+  color: #B3BDDB;
+}
+/*# sourceMappingURL=index.css.map */

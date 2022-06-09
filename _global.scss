@@ -1,0 +1,49 @@
+/* colour */
+ $prycolor: #0A192E; 
+ $seccolor:#B3BDDB;
+ $tercolor:#56DBBF;
+
+ @mixin headerFONT1 {
+    font-family: 'Rockwell';
+    font-weight: 400;
+    font-size: 67.34px;
+  }
+  
+  @mixin headerFONT2 {
+    font-family: 'Rockwell';
+    font-weight: 400;
+    font-size: 50.52px;
+  }
+  
+  @mixin headerFONT3 {
+    font-family: 'Rockwell';
+    font-weight: 400;
+    font-size: 37.9px;
+  }
+        
+  @mixin headerFONT4 {
+    font-family: 'Rockwell';
+    font-weight: 400;
+    font-size: 28.43px;
+  }
+    @mixin headerFONT5 {
+    font-family: 'Rockwell';
+    font-weight: 400;
+    font-size: 21.33px;
+  }
+    @mixin headerFONT6 {
+    font-family: 'Rockwell';
+    font-weight: 400;
+    font-size: 16px;
+  }
+    @mixin p {
+    font-family: 'Rockwell';
+    font-weight: 400;
+    font-size: 8px;
+  }
+
+  @mixin button {
+     border-radius: 25px;
+     border-color: $tercolor;
+     background-color:rgb(69, 68, 68);
+  }

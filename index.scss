@@ -1,0 +1,57 @@
+@use 'global' as *;
+
+a:link{
+     text-decoration: none;
+}
+.bg {
+    background-color:$prycolor;
+    font-family: 'Rockwell';
+}
+.navnumber{
+    color: $tercolor !important;
+}
+.navtext{
+    color: $seccolor;
+}
+.resume{ 
+    @include button;
+}
+.resumetext{
+    color: $tercolor !important;
+}
+// .firstabout{
+//     color: $seccolor !important;
+//     @include headerFONT3;
+// }
+
+.firsttext{
+    color: $seccolor;
+    @include headerFONT5;
+    padding-top:5%;
+}
+.nametext{
+    @include headerFONT2;
+}
+.hello{
+    text-align:justify;
+    @include headerFONT6;
+}
+
+.titleBorder {
+    border-bottom: 1px solid $tercolor;
+}
+.footer{
+    margin-top: 50px;
+}
+.get{
+    color: $seccolor;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+#footertext{
+    margin-left: 140px;
+    color: $seccolor;
+} 
+#icon a{
+    color: $seccolor;
+}
