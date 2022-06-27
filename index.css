@@ -1,4 +1,10 @@
 /* colour */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 a:link {
   text-decoration: none;
 }
@@ -25,7 +31,7 @@ a:link {
 .resume {
   border-radius: 25px;
   border-color: #56DBBF;
-  background-color: #454444;
+  background-color: rgb(69, 68, 68);
 }
 
 .resumetext {
@@ -69,16 +75,18 @@ a:link {
 
 .get {
   color: #B3BDDB;
-  margin-top: 70px;
-  margin-bottom: 20px;
 }
 
 #footertext {
-  margin-left: 140px;
   color: #B3BDDB;
 }
 
 #icon a {
   color: #B3BDDB;
 }
-/*# sourceMappingURL=index.css.map */
+
+.resumetext {
+  font-family: "Rockwell";
+  font-weight: 400;
+  font-size: 16px;
+}/*# sourceMappingURL=index.css.map */

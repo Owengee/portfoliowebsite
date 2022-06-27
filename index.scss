@@ -1,58 +1,67 @@
-@use 'global' as *;
+@use "global" as *;
 
-a:link{
-     text-decoration: none;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a:link {
+  text-decoration: none;
 }
 .bg {
-    background-color:$prycolor;
-    font-family: 'Rockwell';
+  background-color: $prycolor;
+  font-family: "Rockwell";
 }
-.navnumber{
-    color: $tercolor !important;
-    @include headerFONT5;
+.navnumber {
+  color: $tercolor !important;
+  @include headerFONT5;
 }
-.navtext{
-    color: $seccolor;
-    @include headerFONT5;
+.navtext {
+  color: $seccolor;
+  @include headerFONT5;
 }
-.resume{ 
-    @include button;
+.resume {
+  @include button;
 }
-.resumetext{
-    color: $tercolor !important;
+.resumetext {
+  color: $tercolor !important;
 }
-.experience{
-    @include headerFONT6;
+.experience {
+  @include headerFONT6;
 }
 
-.firsttext{
-    color: $seccolor;
-    @include headerFONT5;
-    padding-top:5%;
+.firsttext {
+  color: $seccolor;
+  @include headerFONT5;
+  padding-top: 5%;
 }
-.nametext{
-    @include headerFONT5;
+.nametext {
+  @include headerFONT5;
 }
-.hello{
-    text-align:justify;
-    @include headerFONT6;
+.hello {
+  text-align: justify;
+  @include headerFONT6;
 }
 
 .titleBorder {
-    border-bottom: 1px solid $tercolor;
+  border-bottom: 1px solid $tercolor;
 }
-.footer{
-    margin-top: 50px;
+.footer {
+  margin-top: 50px;
 }
-.get{
-    color: $seccolor;
-    margin-top: 70px;
-    margin-bottom: 20px;
+.get {
+  color: $seccolor;
+  // margin-top: 70px;
+  // margin-bottom: 20px;
 }
-#footertext{
-    margin-left: 140px;
-    color: $seccolor;
-} 
-#icon a{
-    color: $seccolor;
+#footertext {
+  // margin-left: 140px;
+  color: $seccolor;
+}
+#icon a {
+  color: $seccolor;
+}
+.resumetext {
+  @include headerFONT6;
 }
