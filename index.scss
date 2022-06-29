@@ -12,21 +12,22 @@ a:link {
 .bg {
   background-color: $prycolor;
   font-family: "Rockwell";
+  color: $seccolor;
 }
 .navnumber {
   color: $tercolor !important;
-  @include headerFONT5;
+  // @include headerFONT6;
 }
 .navtext {
   color: $seccolor;
-  @include headerFONT5;
+  // @include headerFONT6;
 }
 .resume {
   @include button;
 }
-.resumetext {
-  color: $tercolor !important;
-}
+// .resumetext {
+//   color: $tercolor !important;
+// }
 .experience {
   @include headerFONT6;
 }
@@ -37,11 +38,12 @@ a:link {
   padding-top: 5%;
 }
 .nametext {
-  @include headerFONT5;
+  // @include headerFONT5;
 }
 .hello {
   text-align: justify;
-  @include headerFONT6;
+  padding-inline: 1.5rem;
+  // @include headerFONT6;
 }
 
 .titleBorder {
@@ -64,4 +66,10 @@ a:link {
 }
 .resumetext {
   @include headerFONT6;
+}
+
+@media only screen and (max-width: 600px) {
+  .myImage {
+    margin-top: 40px;
+  }
 }

@@ -10,63 +10,49 @@ a:link {
 }
 
 .bg {
-  background-color: #0A192E;
+  background-color: #0a192e;
   font-family: "Rockwell";
+  color: #b3bddb;
 }
 
 .navnumber {
-  color: #56DBBF !important;
-  font-family: "Rockwell";
-  font-weight: 400;
-  font-size: 21.33px;
+  color: #56dbbf !important;
 }
 
 .navtext {
-  color: #B3BDDB;
-  font-family: "Rockwell";
-  font-weight: 400;
-  font-size: 21.33px;
+  color: #b3bddb;
 }
 
 .resume {
   border-radius: 25px;
-  border-color: #56DBBF;
+  border-color: #56dbbf;
+  font-family: "Rockwell";
+  font-weight: 400;
+  font-size: 0.563rem;
   background-color: rgb(69, 68, 68);
-}
-
-.resumetext {
-  color: #56DBBF !important;
 }
 
 .experience {
   font-family: "Rockwell";
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .firsttext {
-  color: #B3BDDB;
+  color: #b3bddb;
   font-family: "Rockwell";
   font-weight: 400;
-  font-size: 21.33px;
+  font-size: 1.333rem;
   padding-top: 5%;
-}
-
-.nametext {
-  font-family: "Rockwell";
-  font-weight: 400;
-  font-size: 21.33px;
 }
 
 .hello {
   text-align: justify;
-  font-family: "Rockwell";
-  font-weight: 400;
-  font-size: 16px;
+  padding-inline: 1.5rem;
 }
 
 .titleBorder {
-  border-bottom: 1px solid #56DBBF;
+  border-bottom: 1px solid #56dbbf;
 }
 
 .footer {
@@ -74,19 +60,25 @@ a:link {
 }
 
 .get {
-  color: #B3BDDB;
+  color: #b3bddb;
 }
 
 #footertext {
-  color: #B3BDDB;
+  color: #b3bddb;
 }
 
 #icon a {
-  color: #B3BDDB;
+  color: #b3bddb;
 }
 
 .resumetext {
   font-family: "Rockwell";
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .myImage {
+    margin-top: 40px;
+  }
 }/*# sourceMappingURL=index.css.map */
